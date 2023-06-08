@@ -1,0 +1,11 @@
+modules:
+  macro:
+    - key: hello-world-app-hello-world
+      function: main
+      title: hello-world-app
+      description: Inserts Hello world!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/fe91f83f-c043-484b-8fb6-f3f536091040
